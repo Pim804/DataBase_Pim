@@ -1,5 +1,9 @@
 ﻿# OptiStock — Banco de Dados
 
+## Esquema visual
+
+Veja o [diagrama do banco](docs/esquema-visual.md) para entender as tabelas, campos e relacionamentos.
+
 ## 1. Identificação
 
 **Projeto:** OptiStock — Sistema de gerenciamento de estoque  
@@ -140,3 +144,5 @@ O EF Core e a aplicação usam as migrations canônicas do `Site_Pim`. Os script
 - Usar credenciais fortes e privilégios mínimos fora do ambiente de desenvolvimento.
 - Esta pasta contém estrutura e scripts de implantação, não uma cópia dos dados operacionais.
 - A criação do usuário administrador e dos papéis da aplicação é executada pelo `IdentitySeeder.cs`, usando configurações fornecidas ao site; não insira senhas de usuários diretamente em SQL.
+
+
