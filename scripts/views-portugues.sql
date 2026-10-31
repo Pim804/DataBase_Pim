@@ -1,0 +1,4 @@
+-- Substituido pela migration TraduzirNomesBanco.
+-- Os nomes pecas, categorias, fornecedores, movimentacoes_estoque e comunicados
+-- agora sao tabelas reais, nao views. Aplique migrations/optistock-idempotent.sql.
+-- As views de relatorio sao visao_geral_estoque e movimentacoes_diarias.
