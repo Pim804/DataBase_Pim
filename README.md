@@ -80,6 +80,7 @@ SELECT * FROM fn_optistock_movement_totals(
 - PostgreSQL 18 e cliente de linha de comando `psql`.
 - Uma conta administrativa PostgreSQL para preparar o banco.
 - A aplicação ASP.NET Core precisa receber uma connection string apontando para o usuário e o banco criados.
+<<<<<<< HEAD
 
 ## 7. Instalação completa
 
@@ -146,3 +147,5 @@ O EF Core e a aplicação usam as migrations canônicas do `Site_Pim`. Os script
 - A criação do usuário administrador e dos papéis da aplicação é executada pelo `IdentitySeeder.cs`, usando configurações fornecidas ao site; não insira senhas de usuários diretamente em SQL.
 
 
+=======
+>>>>>>> fc6888e819aac351e2b81beb0ebf5a4528c33f5f
